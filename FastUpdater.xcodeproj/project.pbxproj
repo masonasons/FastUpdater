@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0844B4D9CB9ECF5C7EB6D30F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BB684E63989C98E5CCD292 /* AppDelegate.swift */; };
+		216477424FEEAAC5455D993A /* AppCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E40208406EC450CC7226F6 /* AppCheckCell.swift */; };
+		2BF138AEDC1AAA61FA7E8BC9 /* HomebrewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229994CBEE73C99D4DC66CF /* HomebrewProvider.swift */; };
+		2EA7D593AE09C886C71E1655 /* InstalledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AAA6CFAAD7D5122B6A323 /* InstalledApp.swift */; };
+		363F67AFEDFD77B0FD54C757 /* AvailableUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346E0C0FF9CD511A12C1587 /* AvailableUpdate.swift */; };
+		39CC56AF8DC3D9F3BC262CF0 /* SystemUpdateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E49D1C042F1FD669C05195F /* SystemUpdateProvider.swift */; };
+		41D12C5012263BA9CB8BB971 /* UpdatesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8210D2A295DA3069450B3C56 /* UpdatesTableView.swift */; };
+		4B6089EF2B00B001DC560EC5 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6EB6C51C1B3F63C99FB5D9 /* MainWindowController.swift */; };
+		4EC696C24F7324A4BBCD2B90 /* ProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7A8B1A95CD09A73D2640E /* ProviderTests.swift */; };
+		6BEAC639A5388E3915C2EFBD /* AppcastParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE648F8C4DE6D98C4E13E52 /* AppcastParser.swift */; };
+		6D7E138319D6CE29366AE25F /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C72A2F6AB64EBA6519BF12 /* MainMenu.swift */; };
+		7302EDC68B067937A2A8EFA7 /* AppScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EDA25BF9AD6814554EA6D3 /* AppScanner.swift */; };
+		7B3BA41775F5CFBAAB0CDF51 /* UpdateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992564A6864D505BB1EE730 /* UpdateRow.swift */; };
+		7CC81B418B354182ABC790C4 /* AppStoreProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB0647A25649420C10F1B3 /* AppStoreProvider.swift */; };
+		7F889147B49047C48E4F5A07 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250E509E8ED2AE8242BA27FD /* Shell.swift */; };
+		9D315B7E58DF79FA9EF97C82 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1245383DF5D5E721A7134B6 /* UpdateChecker.swift */; };
+		A2416A431AE15725ADBD5CBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E95643E7D31A590D7125C61 /* main.swift */; };
+		BAB195D76C21E58FEC6C7077 /* SparkleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D980EA901B3C30D6F94D2B3F /* SparkleProvider.swift */; };
+		BF564FEE93FDA00DCB00AE87 /* ElectronProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5008273B915DE3CC65731981 /* ElectronProvider.swift */; };
+		CBB3F5DC3872B9A4236859CA /* ArchiveInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C58E66420D0E9ADE0F3E1A /* ArchiveInstaller.swift */; };
+		CD597736BC4B47312824209F /* UpdateInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6180BF41F866BA9094C51959 /* UpdateInstaller.swift */; };
+		DE27AA0639D20700999DDAE2 /* VersionComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D49B6B0032AFF55E3C949 /* VersionComparator.swift */; };
+		E498BE9A4B72D5E4890BD0FA /* FastUpdaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263443BB97AFAEA06BBAA60 /* FastUpdaterTests.swift */; };
+		E7985DA8F417B95D033FF19F /* HomebrewCatalogProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F1DDFE624086B7DCB3814 /* HomebrewCatalogProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5196CA3C8A4F9C4010BA401F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB200946FD9EA830D7670A2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F992554A5E2ECA04D3DC28;
+			remoteInfo = FastUpdater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C72A2F6AB64EBA6519BF12 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		058D49B6B0032AFF55E3C949 /* VersionComparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionComparator.swift; sourceTree = "<group>"; };
+		07E40208406EC450CC7226F6 /* AppCheckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCheckCell.swift; sourceTree = "<group>"; };
+		11F61143207D93C6299A34D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		20BB684E63989C98E5CCD292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		250E509E8ED2AE8242BA27FD /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		48C58E66420D0E9ADE0F3E1A /* ArchiveInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveInstaller.swift; sourceTree = "<group>"; };
+		4E95643E7D31A590D7125C61 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5008273B915DE3CC65731981 /* ElectronProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronProvider.swift; sourceTree = "<group>"; };
+		5229994CBEE73C99D4DC66CF /* HomebrewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebrewProvider.swift; sourceTree = "<group>"; };
+		5933F812653488C21A654FA1 /* FastUpdater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7AAA6CFAAD7D5122B6A323 /* InstalledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledApp.swift; sourceTree = "<group>"; };
+		6180BF41F866BA9094C51959 /* UpdateInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInstaller.swift; sourceTree = "<group>"; };
+		6263443BB97AFAEA06BBAA60 /* FastUpdaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastUpdaterTests.swift; sourceTree = "<group>"; };
+		66EDA25BF9AD6814554EA6D3 /* AppScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScanner.swift; sourceTree = "<group>"; };
+		6A6EB6C51C1B3F63C99FB5D9 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		7E49D1C042F1FD669C05195F /* SystemUpdateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemUpdateProvider.swift; sourceTree = "<group>"; };
+		8210D2A295DA3069450B3C56 /* UpdatesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesTableView.swift; sourceTree = "<group>"; };
+		931F1DDFE624086B7DCB3814 /* HomebrewCatalogProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebrewCatalogProvider.swift; sourceTree = "<group>"; };
+		9DE648F8C4DE6D98C4E13E52 /* AppcastParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppcastParser.swift; sourceTree = "<group>"; };
+		A1245383DF5D5E721A7134B6 /* UpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateChecker.swift; sourceTree = "<group>"; };
+		A8E7A8B1A95CD09A73D2640E /* ProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderTests.swift; sourceTree = "<group>"; };
+		C542DA016EC2F2BD148A676A /* FastUpdaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastUpdaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D980EA901B3C30D6F94D2B3F /* SparkleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleProvider.swift; sourceTree = "<group>"; };
+		D992564A6864D505BB1EE730 /* UpdateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateRow.swift; sourceTree = "<group>"; };
+		E2EB0647A25649420C10F1B3 /* AppStoreProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreProvider.swift; sourceTree = "<group>"; };
+		E346E0C0FF9CD511A12C1587 /* AvailableUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableUpdate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00267B19EBC0C1462EB7A26E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				250E509E8ED2AE8242BA27FD /* Shell.swift */,
+				058D49B6B0032AFF55E3C949 /* VersionComparator.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		01FEC15F5F3F2BE702C77BF5 /* Scanning */ = {
+			isa = PBXGroup;
+			children = (
+				66EDA25BF9AD6814554EA6D3 /* AppScanner.swift */,
+			);
+			path = Scanning;
+			sourceTree = "<group>";
+		};
+		2172D0639998C5A005C73F8C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				20BB684E63989C98E5CCD292 /* AppDelegate.swift */,
+				4E95643E7D31A590D7125C61 /* main.swift */,
+				02C72A2F6AB64EBA6519BF12 /* MainMenu.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		32FB3BFB8D145B9D831E4704 /* FastUpdaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6263443BB97AFAEA06BBAA60 /* FastUpdaterTests.swift */,
+				A8E7A8B1A95CD09A73D2640E /* ProviderTests.swift */,
+			);
+			path = FastUpdaterTests;
+			sourceTree = "<group>";
+		};
+		63BEE61C6578C13BD2B6769C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5933F812653488C21A654FA1 /* FastUpdater.app */,
+				C542DA016EC2F2BD148A676A /* FastUpdaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777BFDCE6D0495D480293429 /* FastUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				11F61143207D93C6299A34D4 /* Info.plist */,
+				2172D0639998C5A005C73F8C /* App */,
+				BD1356BEF375BF96A4C37B14 /* Install */,
+				77E65FEB39D19ABF551A2D8E /* Models */,
+				BB88C58A0DDDB754E6F22D06 /* Providers */,
+				01FEC15F5F3F2BE702C77BF5 /* Scanning */,
+				A649AAF9D7EE87DC6F79FA72 /* UI */,
+				00267B19EBC0C1462EB7A26E /* Util */,
+			);
+			path = FastUpdater;
+			sourceTree = "<group>";
+		};
+		77E65FEB39D19ABF551A2D8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E346E0C0FF9CD511A12C1587 /* AvailableUpdate.swift */,
+				5B7AAA6CFAAD7D5122B6A323 /* InstalledApp.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A649AAF9D7EE87DC6F79FA72 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				07E40208406EC450CC7226F6 /* AppCheckCell.swift */,
+				6A6EB6C51C1B3F63C99FB5D9 /* MainWindowController.swift */,
+				D992564A6864D505BB1EE730 /* UpdateRow.swift */,
+				8210D2A295DA3069450B3C56 /* UpdatesTableView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BB88C58A0DDDB754E6F22D06 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				9DE648F8C4DE6D98C4E13E52 /* AppcastParser.swift */,
+				E2EB0647A25649420C10F1B3 /* AppStoreProvider.swift */,
+				5008273B915DE3CC65731981 /* ElectronProvider.swift */,
+				931F1DDFE624086B7DCB3814 /* HomebrewCatalogProvider.swift */,
+				5229994CBEE73C99D4DC66CF /* HomebrewProvider.swift */,
+				D980EA901B3C30D6F94D2B3F /* SparkleProvider.swift */,
+				7E49D1C042F1FD669C05195F /* SystemUpdateProvider.swift */,
+				A1245383DF5D5E721A7134B6 /* UpdateChecker.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		BD1356BEF375BF96A4C37B14 /* Install */ = {
+			isa = PBXGroup;
+			children = (
+				48C58E66420D0E9ADE0F3E1A /* ArchiveInstaller.swift */,
+				6180BF41F866BA9094C51959 /* UpdateInstaller.swift */,
+			);
+			path = Install;
+			sourceTree = "<group>";
+		};
+		BF0AFA4CC048FDA2181E3982 = {
+			isa = PBXGroup;
+			children = (
+				777BFDCE6D0495D480293429 /* FastUpdater */,
+				32FB3BFB8D145B9D831E4704 /* FastUpdaterTests */,
+				63BEE61C6578C13BD2B6769C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F992554A5E2ECA04D3DC28 /* FastUpdater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7B6E3DC6152A1F6F205284 /* Build configuration list for PBXNativeTarget "FastUpdater" */;
+			buildPhases = (
+				FF09A273CAF22A67F74E358C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastUpdater;
+			packageProductDependencies = (
+			);
+			productName = FastUpdater;
+			productReference = 5933F812653488C21A654FA1 /* FastUpdater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43F345A60B09EB50D5CA71F /* FastUpdaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9463926A772956143EB8C138 /* Build configuration list for PBXNativeTarget "FastUpdaterTests" */;
+			buildPhases = (
+				46171B785D61F170607DCC02 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A9720656AEF1D5D9BFB38C7 /* PBXTargetDependency */,
+			);
+			name = FastUpdaterTests;
+			packageProductDependencies = (
+			);
+			productName = FastUpdaterTests;
+			productReference = C542DA016EC2F2BD148A676A /* FastUpdaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB200946FD9EA830D7670A2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = E27740D335753AB0D2CDCC5E /* Build configuration list for PBXProject "FastUpdater" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BF0AFA4CC048FDA2181E3982;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F992554A5E2ECA04D3DC28 /* FastUpdater */,
+				A43F345A60B09EB50D5CA71F /* FastUpdaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46171B785D61F170607DCC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E498BE9A4B72D5E4890BD0FA /* FastUpdaterTests.swift in Sources */,
+				4EC696C24F7324A4BBCD2B90 /* ProviderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF09A273CAF22A67F74E358C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216477424FEEAAC5455D993A /* AppCheckCell.swift in Sources */,
+				0844B4D9CB9ECF5C7EB6D30F /* AppDelegate.swift in Sources */,
+				7302EDC68B067937A2A8EFA7 /* AppScanner.swift in Sources */,
+				7CC81B418B354182ABC790C4 /* AppStoreProvider.swift in Sources */,
+				6BEAC639A5388E3915C2EFBD /* AppcastParser.swift in Sources */,
+				CBB3F5DC3872B9A4236859CA /* ArchiveInstaller.swift in Sources */,
+				363F67AFEDFD77B0FD54C757 /* AvailableUpdate.swift in Sources */,
+				BF564FEE93FDA00DCB00AE87 /* ElectronProvider.swift in Sources */,
+				E7985DA8F417B95D033FF19F /* HomebrewCatalogProvider.swift in Sources */,
+				2BF138AEDC1AAA61FA7E8BC9 /* HomebrewProvider.swift in Sources */,
+				2EA7D593AE09C886C71E1655 /* InstalledApp.swift in Sources */,
+				6D7E138319D6CE29366AE25F /* MainMenu.swift in Sources */,
+				4B6089EF2B00B001DC560EC5 /* MainWindowController.swift in Sources */,
+				7F889147B49047C48E4F5A07 /* Shell.swift in Sources */,
+				BAB195D76C21E58FEC6C7077 /* SparkleProvider.swift in Sources */,
+				39CC56AF8DC3D9F3BC262CF0 /* SystemUpdateProvider.swift in Sources */,
+				9D315B7E58DF79FA9EF97C82 /* UpdateChecker.swift in Sources */,
+				CD597736BC4B47312824209F /* UpdateInstaller.swift in Sources */,
+				7B3BA41775F5CFBAAB0CDF51 /* UpdateRow.swift in Sources */,
+				41D12C5012263BA9CB8BB971 /* UpdatesTableView.swift in Sources */,
+				DE27AA0639D20700999DDAE2 /* VersionComparator.swift in Sources */,
+				A2416A431AE15725ADBD5CBA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A9720656AEF1D5D9BFB38C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F992554A5E2ECA04D3DC28 /* FastUpdater */;
+			targetProxy = 5196CA3C8A4F9C4010BA401F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0870D283F620928AFEB184F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastupdater.FastUpdaterTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastUpdater.app/Contents/MacOS/FastUpdater";
+			};
+			name = Release;
+		};
+		4848DE10778360A1E03C2E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastUpdater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastupdater.FastUpdater;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		75D485589A7288256A6AD4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastupdater.FastUpdaterTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastUpdater.app/Contents/MacOS/FastUpdater";
+			};
+			name = Debug;
+		};
+		DC0265D85918760D88C76275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		DE5098E528622E9933667ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E65FA550ACDD9D1A43D8D5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastUpdater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastupdater.FastUpdater;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9463926A772956143EB8C138 /* Build configuration list for PBXNativeTarget "FastUpdaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D485589A7288256A6AD4F0 /* Debug */,
+				0870D283F620928AFEB184F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E27740D335753AB0D2CDCC5E /* Build configuration list for PBXProject "FastUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5098E528622E9933667ED6 /* Debug */,
+				DC0265D85918760D88C76275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF7B6E3DC6152A1F6F205284 /* Build configuration list for PBXNativeTarget "FastUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4848DE10778360A1E03C2E74 /* Debug */,
+				E65FA550ACDD9D1A43D8D5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB200946FD9EA830D7670A2B /* Project object */;
+}

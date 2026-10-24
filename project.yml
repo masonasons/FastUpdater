@@ -1,0 +1,51 @@
+name: FastUpdater
+options:
+  bundleIdPrefix: com.fastupdater
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+targets:
+  FastUpdater:
+    type: application
+    platform: macOS
+    sources: [FastUpdater]
+    info:
+      path: FastUpdater/Info.plist
+      properties:
+        CFBundleDisplayName: FastUpdater
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        LSApplicationCategoryType: public.app-category.utilities
+        NSPrincipalClass: NSApplication
+        NSHumanReadableCopyright: ""
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.fastupdater.FastUpdater
+        # Not sandboxed: the app needs to read/replace bundles in /Applications and run brew/mas.
+        ENABLE_APP_SANDBOX: NO
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_IDENTITY: "-"
+        GENERATE_INFOPLIST_FILE: NO
+  FastUpdaterTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [FastUpdaterTests]
+    dependencies:
+      - target: FastUpdater
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/FastUpdater.app/Contents/MacOS/FastUpdater"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  FastUpdater:
+    build:
+      targets:
+        FastUpdater: all
+        FastUpdaterTests: [test]
+    test:
+      targets: [FastUpdaterTests]
